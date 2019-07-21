@@ -1,5 +1,5 @@
 # NNR
-A simple no recoil script with pattern generator.
+A simple no recoil script with pattern generator, that supports multiple weapons.
 
 ### Prerequisites
 
