@@ -44,10 +44,6 @@ def detectCurrentWeapon(images):
         loc = np.where( res >= threshold)
         for pt in zip(*loc[::-1]):
             cv2.rectangle(screen, pt, (pt[0] + w, pt[1] + h), (0,0,255), 2)
-        cv2.imwrite('res.png', screen)
-        cv2.imwrite('ehmole.png', images[i])
-        print(str(i))
-        print(list(zip(*loc[::-1])))
         if list(zip(*loc[::-1])):
             return i
     return None
