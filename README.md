@@ -1,5 +1,6 @@
 # NNR
-A simple no recoil script with pattern generator, that supports multiple weapons.
+A simple no recoil script with pattern generator, that supports multiple weapons. 
+Made while learning Python. Not intended to be the best/undetectable.
 
 ### Prerequisites
 
